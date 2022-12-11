@@ -4,8 +4,8 @@
   "description": "Generate images using OpenAI",
   "main": "index.js",
   "scripts": {
-    "start": "node index",
-    "dev": "nodemon index"
+    "start": "nodemon index",
+    "dev": "node index"
   },
   "keywords": [],
   "author": "Brad Traversy",
@@ -17,6 +17,7 @@
     "openai": "^3.1.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.20"
+    "nodemon": "^2.0.20",
+    "node": "^16.18.1"
   }
 }

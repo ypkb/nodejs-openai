@@ -7,8 +7,8 @@ function onSubmit(e) {
 
   const prompt = document.querySelector("#prompt").value;
   const size = document.querySelector("#size")
-    ? document.querySelector("#size").value
-    : "small";
+      ? document.querySelector("#size").value
+      : "small";
   const type = document.querySelector("#type").value;
 
   if (prompt === "") {
@@ -91,5 +91,6 @@ function showSpinner() {
 function removeSpinner() {
   document.querySelector(".spinner").classList.remove("show");
 }
+
 
 document.querySelector("#image-form").addEventListener("submit", onSubmit);
